@@ -1,0 +1,15 @@
+.btnStyle{
+    display: inline-block;
+    background-color: #6D9886;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px #000000;
+    margin-right: 0;
+    transition: transform 100ms linear;
+    color: #FFF;
+    text-decoration: none;
+}
+.btnStyle:hover{
+    transform: scale(1.08);
+    box-shadow: 5px 5px 5px #000000;
+}
+ 

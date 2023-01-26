@@ -1,0 +1,33 @@
+.cenario{
+    background-image: url('/img/backgroundMario.jpg');
+    border-radius: 10px;
+    width: 900px;
+    height: 369px;
+    background-repeat: repeat-x;
+}
+.balapixel{
+    width: 50px;
+    height: 35px;
+    justify-self: end;
+}
+.cogumelopixel{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 25px;
+    margin-left: 100px;
+}
+.yoshipixel{
+    width: 80px;
+    height: 70px;
+    margin-bottom: 35px;
+}
+.canopixel{
+width: 140px;
+height: 140px;
+margin-top: -19px;
+}
+.mariopixel{
+    width: 40px;
+    height: 50px;
+    margin-top: 22px;
+}

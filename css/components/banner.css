@@ -1,0 +1,58 @@
+.banner{
+    background-image: url('/img/BackgroundGeral.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+    height: 800px;
+    border-bottom: 10px  solid #000;
+    padding-top: 115px;
+    padding-left: 90px;
+    display: flex;
+}
+.banner .wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+}
+.banner .box{
+    margin-bottom: 40px;
+}
+.banner .navigation{
+    display: flex;
+    justify-content: space-around;
+}
+/* .blal{
+    background-color: #393E46;
+} */
+
+.cenario{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto; 
+    align-self: end;
+   margin-left: 250px;
+   margin-bottom: 10px;
+}
+.divBala{
+    grid-column: 1/2;
+    grid-row: 1/1;
+    align-self: end;
+    justify-self: end;
+}
+.divMario{
+    grid-column: 2/3;
+    grid-row: 1/1;
+    justify-self: center;
+    align-self: end;
+}
+.divCogumelo{
+    grid-column: 1/2;
+    grid-row: 2/2;
+    justify-self: center;
+    align-self: center;
+}
+.divCano{
+    grid-column: 2/3;
+    grid-row: 2/2;
+    justify-self: center;
+}
