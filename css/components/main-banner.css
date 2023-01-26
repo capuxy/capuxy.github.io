@@ -1,4 +1,4 @@
-.banner{
+.main-banner{
     background-image: url('/img/BackgroundGeral.png');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -9,15 +9,15 @@
     padding-left: 90px;
     display: flex;
 }
-.banner .wrapper{
+.main-banner .wrapper{
     display: flex;
     flex-direction: column;
     width: 640px;
 }
-.banner .box{
+.main-banner .main-box{
     margin-bottom: 40px;
 }
-.banner .navigation{
+.main-banner .navigation{
     display: flex;
     justify-content: space-around;
 }

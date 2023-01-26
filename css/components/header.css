@@ -1,11 +1,11 @@
-.header {
+.main-header {
     display: flex;
     background-color: #393E46;
     border-bottom: 10px solid #000;
     padding: 10px 20px;
     justify-content: space-between;
 }
- .header .tituloNavbar{ 
+ .main-header .tituloNavbar{ 
     color: #FFF;
     font-family: 'Press Start 2P';
     text-shadow: 5px 5px 5px #6D9886;

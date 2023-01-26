@@ -10,48 +10,15 @@
     flex-direction: column;
     align-items: center;
 }
-.titulo.-second{
-    color: #FFF;
-    margin-bottom: 70px;
-    text-align: center;
-    text-shadow: none;
-}
+
 .divTotalSkils{
     display: flex;
 }
-.divGitIcon,.divHtmlIcon,.divCssIcon,.divJavascriptIcon,.divPhpIcon,.divLaravelIcon{
+.divIcon{
     display: flex;
     margin-bottom: 40px;
 }
-.divBarraSkills{
-    display: border-box;
-    background-color: #FFF;
-    border: 5px solid #000;
-    width: 370px;
-    height: 40px;
-    display: flex;
-}
-.sessenta::before{
-    content: '';
-    background-color: #322000;
-    width: 60%;
-}
-.cinquenta::before{
-    content: '';
-    background-color: #322000;
-    width: 50%;
-}
-.dez::before{
-    content: '';
-    background-color: #322000;
-    width: 10%;
-}
-.divTituloBarra{
-    margin-left: 25px;
-    margin-right: 60px;
-    justify-content: center;
-    align-items: center;
-}
-.subtituloSkills{
+
+.main-subtitle{
     margin-bottom: 20px;
 }

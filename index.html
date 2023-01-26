@@ -9,33 +9,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/components/header.css">
-    <link rel="stylesheet" href="/css/components/banner.css">
-    <link rel="stylesheet" href="/css/components/box.css">
-    <link rel="stylesheet" href="/css/components/action.css">
-    <link rel="stylesheet" href="/css/components/button.css">
-    <link rel="stylesheet" href="/css/components/title.css">
-    <link rel="stylesheet" href="/css/components/subtitle.css">
+    <link rel="stylesheet" href="/css/components/main-banner.css">
+    <link rel="stylesheet" href="/css/components/main-box.css">
+    <link rel="stylesheet" href="/css/components/main-action.css">
+    <link rel="stylesheet" href="/css/components/main-button.css">
+    <link rel="stylesheet" href="/css/components/main-title.css">
+    <link rel="stylesheet" href="/css/components/main-subtitle.css">
     <link rel="stylesheet" href="/css/components/cenario.css">
     <link rel="stylesheet" href="/css/components/bannerSkills.css">
+    <link rel="stylesheet" href="/css/components/bannerProjetos.css">
     <link rel="stylesheet" href="/css/components/icon.css">
+    <link rel="stylesheet" href="/css/components/skill-tec.css">
+    <link rel="stylesheet" href="/css/components/progress-bar.css">
+    <link rel="stylesheet" href="/css/components/bannerSobre.css">
+    <link rel="stylesheet" href="/css/components/btnArrow.css">
+
+    
     
 </head>
 
 <body>
-    <header class="header">
+    <header class="main-header">
         <h2 class="tituloNavbar">Capuxy</h2>
         <nav>
-            <a class="action" href="#">Skills</a>
-            <a class="action" href="#">Projetos</a>
-            <a class="action" href="#">Sobre</a>
-            <a class="action" href="#">Contatos</a>
+            <a class="main-action" href="#">Skills</a>
+            <a class="main-action" href="#">Projetos</a>
+            <a class="main-action" href="#">Sobre</a>
+            <a class="main-action" href="#">Contatos</a>
             <a class="btnStyle" href="#" type="button">Download CV</a>
         </nav>
     </header>
-    <section class="banner">
+    <section class="main-banner">
         <div class="wrapper">
-            <div class="box">
-                <h1 class="titulo">Cayo Capuxy</h1>
+            <div class="main-box">
+                <h1 class="main-title">Cayo Capuxy</h1>
                 <h2 class="subtitulo">FrontEnd Developer</p>
             </div>
             <div class="navigation">
@@ -60,55 +67,87 @@
         </div>
     </section>
     <section class="bannerSkills">
-        <h1 class="titulo -second">Skills</h1>
+        <h1 class="main-title -second">Skills</h1>
         <div class="divTotalSkils">
             <div class="divSkills">
-                <div class="divHtmlIcon">
+                <div class="divIcon">
                     <img class="htmlIcon" src="/img/htmlIcon.png" alt="htmlIcon">
                     <div class="divTituloBarra">
-                        <h2 class="subtituloSkills">HTML5</h2>
+                        <h2 class="main-subtitle">HTML5</h2>
                         <div class="divBarraSkills sessenta"></div>
                     </div>
                 </div>
-                <div class="divCssIcon">
+                <div class="divIcon">
                     <img class="cssIcon" src="/img/cssIcon.png" alt="cssIcon">
                     <div class="divTituloBarra">
-                        <h2 class="subtituloSkills">CSS</h2>
+                        <h2 class="main-subtitle">CSS</h2>
                         <div class="divBarraSkills sessenta"></div>
                     </div>
                 </div>
-                <div class="divJavascriptIcon">
+                <div class="divIcon">
                     <img class="javascriptIcon" src="/img/javascriptIcon.png" alt="javascriptIcon">
                     <div class="divTituloBarra">
-                        <h2 class="subtituloSkills">JavaScript</h2>
+                        <h2 class="main-subtitle">JavaScript</h2>
                         <div class="divBarraSkills dez"></div>
                     </div>
                 </div>
             </div>
             <div class="divSkills">
-                <div class="divGitIcon">
+                <div class="divIcon">
                     <img class="gitIcon" src="/img/gitIcon.png" alt="gitIcon">
                     <div class="divTituloBarra">
-                        <h2 class="subtituloSkills">Git</h2>
+                        <h2 class="main-subtitle">Git</h2>
                         <div class="divBarraSkills sessenta"></div>
                     </div>
                 </div>
-                <div class="divPhpIcon">
+                <div class="divIcon">
                     <img class="phpIcon" src="/img/phpIcon.png" alt="phpIcon">
                     <div class="divTituloBarra">
-                        <h2 class="subtituloSkills">Php</h2>
+                        <h2 class="main-subtitle">Php</h2>
                         <div class="divBarraSkills cinquenta"></div>
                     </div>
                 </div>
-                <div class="divLaravelIcon">
+                <div class="divIcon">
                     <img class="laravelIcon" src="/img/laravelIcon.png" alt="laravelIcon">
                     <div class="divTituloBarra">
-                        <h2 class="subtituloSkills">Laravel</h2>
+                        <h2 class="main-subtitle">Laravel</h2>
                         <div class="divBarraSkills cinquenta"></div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+    <section class="bannerProjetos">
+        <h1 class="main-title -second">Projetos</h1>
+        <div class="divTotalProjeto">
+            <figure class="cardProjeto">
+                <img src="/img/logo-collabcode.png" alt="">
+            </figure>
+            <figure class="cardProjeto">
+                <img src="img/logo-collabcode.png" alt="">
+            </figure>
+            <figure class="cardProjeto">
+                <img src="img/logo-collabcode.png" alt="">
+            </figure>
+
+        </div>
+    </section>
+    <section class="bannerSobre">
+        <h1 class="main-title -second">Sobre</h1>
+        <div class="divSobre">
+            <div class="carrossel">
+                <button class="btnArrow left"><span class="content">Esquerda</span></button>
+                <figure class="nodeCard">
+                    <figcaption class="title">2022</figcaption>
+                    <img src="img/locaweb.png" alt="" class="imgCard">
+                </figure>
+                <button class="btnArrow right"><span class="content"> Direita</span></button>
+            </div>
+            <div class="divTextSobre">
+                <p>Estagiário na Secretaria de Planejamento do estado de Alagoas, cursando Ciência da Computação pela Universidade Tiradentes, fez curso no SENAC-AL de montagem e manutenção de Computadores, está estudando para ser um desenvolvedor Front-End, amante de jogos e cultura Geek.</p>
+            </div>
+        </div>
+
     </section>
 </body>
 
