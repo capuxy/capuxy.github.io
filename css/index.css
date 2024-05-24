@@ -1,0 +1,172 @@
+
+:root {
+    --primary-color: #2f2f2f;
+    --secondary-color: #2C2C2C;
+    --terciary-color: #222222;
+    --quaternary-color: #494949;
+    --primary-text-color: #FFFFFF;
+    --secondary-text-color: #5AA2E6;
+    --terciary-text-color: #969696;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    height: 10rem;
+}
+nav{
+    height: 100%;
+}
+.navbar {
+    font-size: 12px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--primary-color);
+}
+.navbar-item{
+    color: var(--primary-text-color);
+}
+.ct1{
+    color: var(--primary-text-color)
+}
+.ct2{
+    color: var(--secondary-text-color)
+}
+.ct3{
+    color: var(--terciary-text-color)
+}
+.btn{
+    background: none;
+    color: var(--primary-text-color);
+    border: solid 2px var(--secondary-text-color);
+    padding: 1rem 6rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.btn-github{
+    width: 240px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.container-contate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.texto-logo{
+    color: var(--primary-text-color);
+    font-weight: 600;
+}
+.conteudo-navbar{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-right: 2rem;
+}
+.container-item-navbar{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+.banner-apresentacao{
+    display: grid;
+    grid-template-columns: 50% 30%;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    gap: 2rem;
+}
+.container-informacoes{
+    display: grid;
+    gap: 3rem;
+    align-items: center;
+    justify-content: start;
+}
+.nome-apresentacao{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+}
+.banner-sobre-mim{
+    display: grid;
+    height: 31.25rem;
+    background-color: var(--secondary-color);
+    align-items: end;
+}
+.container-sobre-mim{
+    display: grid;
+    grid-template-columns: 45% 50%;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 2px var(--secondary-text-color);
+    border-radius: 1.313rem;
+    height: 25rem;
+    width: 75%;
+    justify-self: center;
+    background-color: var(--terciary-color);
+}
+.container-imagem{
+    background: var(--quaternary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    border-radius: 19px;
+}
+.container-informacoes-sobre-mim{
+    display: grid;
+    gap: 1rem;
+}
+.texto-quem-sou{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.texto-nome-sobre-mim{
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 700;
+
+}
+.texto-desenvolvedor{
+    font-size: 16px;
+    font-weight: 400;
+}
+.texto-descricao-sobre-mim{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.container-botoes{
+    display: flex;
+    gap: 1rem;
+}
+.btn-redes{
+    border: 2px solid #474747;
+    background-color: var(--primary-color);
+    width: 64px;
+    height: 56px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
