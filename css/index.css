@@ -4,9 +4,12 @@
     --secondary-color: #2C2C2C;
     --terciary-color: #222222;
     --quaternary-color: #494949;
+    --quinquenary-color: #777777;
+    --sexternary-color: #2A315533;
     --primary-text-color: #FFFFFF;
     --secondary-text-color: #5AA2E6;
     --terciary-text-color: #969696;
+    
 }
 
 body {
@@ -109,7 +112,7 @@ nav{
     display: grid;
     height: 31.25rem;
     background-color: var(--secondary-color);
-    align-items: end;
+    align-items: center;
 }
 .container-sobre-mim{
     display: grid;
@@ -169,4 +172,110 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.btn-redes:hover{
+    border-color: var(--secondary-text-color);
+}
+.banner-informacoes-profissionais{
+    display: grid;
+    height: 31.25rem;
+    align-items: center;
+}
+.container-informacoes-profissionais-total{
+    display: grid;
+    grid-template-columns: 45% 50%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 75%;
+    justify-self: center;
+}
+.container-informacoes-profissionais{
+    display: grid;
+    align-items: center;
+    height: 25rem;
+    width: 100%;
+    justify-self: center;
+    height: 100%;
+}
+.container-informacoes-profissionais-academica{
+    display: grid;
+    border: solid 2px var(--quinquenary-color);
+    padding: 1.5rem;
+    border-radius: 21px;
+    width: 100%;
+    gap: 1rem;
+}
+.container-informacoes-profissionais-tecnica{
+    display: grid;
+    border: solid 2px var(--quinquenary-color);
+    padding: 1.5rem;
+    border-radius: 21px;
+    width: 100%;
+}
+.container-informacoes-profissionais-experiencia-total{
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+    height: 100%;
+}
+.container-informacoes-profissionais-experiencia{
+    display: grid;
+    border: solid 2px var(--quinquenary-color);
+    padding: 1.5rem;
+    border-radius: 21px;
+    height: 80%;
+}
+.titulo-informacoes-profissionais{
+    gap: 1rem;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    color: var(--primary-text-color);
+}
+.item-endereco{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.item-data{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: left;
+
+}
+.lista-academica{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.lista{
+    display: grid;
+    padding: 0 1.5rem;
+    margin-top: 1rem;
+    gap: .4rem;
+}
+.lista-item{
+    list-style: disc;
+    font-weight: 600;
+    size: 20px;
+}
+.footer{
+    background-color:#2A315533;
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+    height: 193px;
+    align-items: center;
+}
+.container-icon-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+}
+.jself-c{
+    justify-self: center;
 }
